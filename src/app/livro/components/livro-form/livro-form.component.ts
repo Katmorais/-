@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { LivroService } from '../../services/livro.service';
+import { LivroService } from '../../../services/livro.service';
 
 @Component({
   selector: 'app-livro-form',
